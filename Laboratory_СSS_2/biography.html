@@ -3,66 +3,130 @@
  <head>
      <meta charset="utf-8">
      <title>Біографія</title>
+     <style>
+       h1{
+         font-size: 22px;
+         text-align: center;
+      }
+      #back{
+        font-style: italic;
+      }
+      p {
+        font-size: 120%;
+      }
+      body > a:nth-child(2){
+        font-style: initial;
+      }
+      nav a{
+        display:block;
+        width: 200px;
+        background-color: blue;
+        border: 2px dashed red;
+        color:white;
+        margin-bottom: 5px;
+        padding: 3px;
+      }
+      nav a:hover{
+        background-color: magenta;
+        color:blue;
+      } nav a:active{
+        background-color: yellow;
+        color:black;
+      }
+      article{
+        font-size: 1.2em;
+      }
+      article h2 {
+        font-size: 1.6em;
+      }
+      #baseInfor p {
+        background-color: #7420a8;
+        color: #eb2f2f;
+      }
+      #child p {
+        background-color: #0b2652;
+        color:#e2f288;
+      }
+      #SchooL p {
+        background-color: #a20874;
+        color:#f2d988;
+      }
+      #univr p {
+        background-color: #71f549;
+        color:#8949ff;
+      }
+      #outside p {
+        background-color: #f5b049;
+        color:#ff4949;
+      }
+      .opp{
+        font-weight:bold;
+      }
+      .up{
+        text-transform: uppercase;
+      }
+     </style>
  </head>
  <body>
-      <h1 id="aft"></a>Автобіографія Нестерука Артема Анатолійовича</h1>
-         <a href="index.html">Назад на головну</a>
-       <h3 id="zmist">Зміст</h3>  
-            <a href="#Basic">Базова інформація</a><br>
-            <a href="#childhood">Дитинство</a><br>
-            <a href="#school">Шкільні роки</a><br>
-            <a href="#outsideschool">Поза школою</a><br>
-            <a href="#university">Університет</a><br>
-             <article>
-                <h2 id="Basic">Базова інформація</h2>
-                <p>  Я не хочу розповідати свою біографію.<br>
-                     Я знаю, якщо хтось захоче дізнатись про мене якусь інформацію, він дізнається. 
-                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Laudantium eveniet nam tempore numquam natus facilis iusto sed aliquid, commodi repellat ipsum optio! 
-                    Eius doloremque ratione, ipsa quod placeat sit reiciendis ducimus necessitatibus similique, expedita blanditiis iure minus quia fugit a.</p>
-            </article>
-              <a href="#zmist">До змісту</a>
-              <article>
-                 <h2 id="childhood">Дитинство</h2>
-                 <p> Дитинство, було в мене дуже веселим, але не довгим, рано подорослішав.<br>
-                 Я був дуже активним, ніколи не сидів довше однієї години, якщо мене не змушували інші або обставини,<br>
-                  приходив до дому їв та йшов далі гуляти, частенько взагалі, що тільки снідав,<br>
-                   а приходив додому дуже пізно і уже хотілось спати. Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> 
-                   Ex cum excepturi velit voluptatem!<br>
-                    Rem cupiditate ab reiciendis totam cum ducimus architecto unde dolorem dolorum ipsa amet,<br>
-                     quisquam eius autem sit! </p>
-              </article> 
-              <a href="#zmist">До змісту</a>
-               <article>
-                 <h2 id="school">Шкільні роки</h2>
-                 <p>В школу, Я не хотів ходити, но Я як хороший хлопцик,<br>
-                  слухав своїх батьків, тому і ходив в нею. За все моє життя,<br>
-                  що Я ходив в школу, мене не було такого, що хотілось йти до неї Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>
-                   Asperiores, molestias! Perferendis, in veniam fugit numquam laborum nulla odio magni facere quas libero placeat assumenda culpa quibusdam,<br>
-                    voluptatem repellat sed minus? </p>
-                </article>
-                <a href="#zmist">До змісту</a>
-                      <article>
-                         <h2 id="outsideschool">Поза школою</h2>
-                           <p>Поза школою, Я багато допомагав батькам, гуляв, думав, грав футбол, ходив ловити рибу.<br>
-                               Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>
-                               Tempora quod, quae id illum quo repellendus repudiandae, accusantium esse, <br>
-                               corporis optio labore quibusdam temporibus possimus numquam sequi perspiciatis repellat ut non. </p>
-                      </article>
-                      <a href="#zmist">До змісту</a>
-                        <article>
-                             <h2 id="university">Університет</h2>
-                              <p>Обрав цей університет випадково, ще перед війноюю, а коли почалась війна,<br>
-                                 то розумів, що в Івано-Франківську буде тихіше ніж в інших містах.<br>
-                                 Навчання, Я думав буде гірше, але може бути.<br>
-                                 І зрозумів, що навчання в університеті, це коли Я сам навчаюсь,поза університетом.<br>
-                                 Так, викладачі даю інформацію, можуть пояснити, але потрібно само все вчити. </p>
-                            </article>
-                              <a href="#zmist">До змісту</a><br>
-                               <DIV> 
-                                   <hr>
-                                <p><a href="#aft">Уверх</a></p>
-                            </DIV>
-
+    <h1 id="aft">Автобіографія Нестерука Артема Анатолійовича</h1>
+    <a id="back" href="index.html">Назад на головну</a>
+    <h3 id="zmist">Зміст</h3>
+    <nav>
+       <a href="#Basic">Базова інформація</a><br>
+       <a href="#childhood">Дитинство</a><br>
+       <a href="#school">Шкільні роки</a><br>
+       <a href="#outsideschool">Поза школою</a><br>
+       <a href="#university">Університет</a><br>
+    </nav>
+    <article id="baseInfor">
+      <h2 id="Basic">Базова інформація</h2>
+      <p>  Я не хочу розповідати свою біографію.<br>
+       Я знаю, якщо хтось захоче дізнатись про мене якусь інформацію, він дізнається. 
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+       Laudantium eveniet nam tempore numquam natus facilis iusto sed aliquid, commodi repellat ipsum optio! 
+       Eius doloremque ratione, ipsa quod placeat sit reiciendis ducimus necessitatibus similique, expedita blanditiis iure minus quia fugit a.</p>
+    </article>
+    <a href="#zmist" class="opp">До змісту</a>
+    <article id="child">
+      <h2 id="childhood">Дитинство</h2>
+      <p> Дитинство, було в мене дуже веселим, але не довгим, рано подорослішав.<br>
+       Я був дуже активним, ніколи не сидів довше однієї години, якщо мене не змушували інші або обставини,<br>
+       приходив до дому їв та йшов далі гуляти, частенько взагалі, що тільки снідав,<br>
+       а приходив додому дуже пізно і уже хотілось спати. Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> 
+       Ex cum excepturi velit voluptatem!<br>
+       Rem cupiditate ab reiciendis totam cum ducimus architecto unde dolorem dolorum ipsa amet,<br>
+       quisquam eius autem sit! </p>
+    </article> 
+    <a href="#zmist" class="opp">До змісту</a>
+    <article id="SchooL">
+      <h2 id="school">Шкільні роки</h2> 
+      <p>В школу, Я не хотів ходити, но Я як хороший хлопцик,<br>
+       слухав своїх батьків, тому і ходив в нею. За все моє життя,<br>
+       що Я ходив в школу, мене не було такого, що хотілось йти до неї Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>
+       Asperiores, molestias! Perferendis, in veniam fugit numquam laborum nulla odio magni facere quas libero placeat assumenda culpa quibusdam,<br>
+       voluptatem repellat sed minus? </p>
+    </article>
+    <a href="#zmist" class="opp">До змісту</a>
+    <article id="outside">
+      <h2 id="outsideschool">Поза школою</h2>
+      <p>Поза школою, Я багато допомагав батькам, гуляв, думав, грав футбол, ходив ловити рибу.<br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>
+        Tempora quod, quae id illum quo repellendus repudiandae, accusantium esse, <br>
+        corporis optio labore quibusdam temporibus possimus numquam sequi perspiciatis repellat ut non. </p>
+    </article>
+    <a href="#zmist" class="opp">До змісту</a>
+    <article id="univr">
+      <h2 id="university">Університет</h2>
+      <p>Обрав цей університет випадково, ще перед війноюю, а коли почалась війна,<br>
+         то розумів, що в Івано-Франківську буде тихіше ніж в інших містах.<br>
+         Навчання, Я думав буде гірше, але може бути.<br>
+        І зрозумів, що навчання в університеті, це коли Я сам навчаюсь,поза університетом.<br>
+        Так, викладачі даю інформацію, можуть пояснити, але потрібно само все вчити. </p>
+    </article>
+    <a href="#zmist" class="opp">До змісту</a><br>
+    <DIV> 
+     <hr>
+     <p><a href="#aft" class="up">Уверх</a></p>
+    </DIV>
      </body>
 </html>
