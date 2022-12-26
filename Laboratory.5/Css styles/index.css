@@ -15,7 +15,7 @@ a:nth-child(2):link {
     color: aqua;
 }
 a:nth-child(3):link {
-    color: hotpink;
+    color: lightsalmon;
 }
 a:nth-child(4):link {
     color: coral;
@@ -31,30 +31,4 @@ a:nth-child(3):visited {
 }
 a:nth-child(4):visited {
     color: pink;
-}
-
-@media (min-width: 993px) {
-    div {
-        display: flex;
-        justify-content: space-evenly;
-    }
-    a {
-        flex: 1 50%;
-    }
-}
-@media (max-width: 768px){
-    
-    a {
-        flex: 1 50%;
-    }
-}
-@media (min-width: 769px) and (max-width: 992px) {
-    div {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-    a {
-        flex:  1 50%;
-    }
 }
