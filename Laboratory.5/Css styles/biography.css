@@ -1,0 +1,59 @@
+h1{
+    font-size: 22px;
+    text-align: center;
+ }
+ article {
+   font-size: 120%;
+ }
+ #back{
+   font-style: italic;
+ }
+ p {
+   font-size: 120%;
+ }
+ body > a:nth-child(2){
+   font-style: initial;
+ }
+ nav a{
+   display:block;
+   width: 250px;
+   background-color: blue;
+   border: 3px dashed yellow;
+   color:white;
+   margin-bottom: 6px;
+   padding: 4px;
+ }
+ nav a:hover{
+   background-color: magenta;
+   color:blue;
+ } nav a:active{
+   background-color: yellow;
+   color:black;
+ }
+ 
+ #baseInfor p {
+   background-color: #7420a8;
+   color: #eb2f2f;
+ }
+ #child p {
+   background-color: #0b2652;
+   color:#e2f288;
+ }
+ #SchooL p {
+   background-color: #a20874;
+   color:#f2d988;
+ }
+ #univr p {
+   background-color: #71f549;
+   color:#8949ff;
+ }
+ #outside p {
+   background-color: #f5b049;
+   color:#ff4949;
+ }
+ .opp{
+   font-weight:bold;
+ }
+ .up{
+   text-transform: uppercase;
+ }
